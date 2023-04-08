@@ -8,7 +8,7 @@ import About from "./pages/about";
 import "./index.css";
 const router = createHashRouter([
   {
-    path: "/*",
+    path: "/",
     element: <RootLayout />,
     children: [
       { index: true, element: <RootIndex /> },
