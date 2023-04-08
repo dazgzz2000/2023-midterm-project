@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
       <Welcome name="Yiting" />
-      <ColorText color="yellow" message="OwO" />
+      <ColorText color="red" message="OwO" />
     </div>
   );
 }
